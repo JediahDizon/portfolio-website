@@ -1,0 +1,95 @@
+body {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* AntD Overrides */
+.ant-card {
+	border-radius: 20px;
+  overflow: hidden;
+}
+.ant-card-body {
+	padding: 0;
+}
+.ant-card-hoverable:hover {
+  box-shadow: 0 0 40px 0px rgba(0,0,0,.05), 0 60px 20px -20px rgba(0, 0, 0, 0.05)
+}
+.ant-tag {
+  border-radius: 20px;
+  margin: 0;
+}
+.ant-image {
+  display: block;
+}
+.ant-btn {
+  border-radius: 20px;
+  border: none;
+  /* box-shadow: 5px 10px 25px #00000015; */
+	transition: transform .1s ease-out;
+}
+.ant-btn:hover {
+	transform: scale(1.05);
+}
+
+
+/* Custom CSS */
+b {
+  color: var(--ant-primary-color) !important;
+}
+#cover .ant-image-img {
+  transition: filter .3s ease-out, transform .3s ease-out;
+}
+#cover:hover .ant-image-img {
+  filter: brightness(0.5);
+  transform: scale(1.05)
+}
+
+
+.work-experience-card, .work-experience-image, .work-experience-description {
+  cursor: pointer;
+  transition: opacity .1s ease-out, filter .1s ease-out, transform .2s cubic-bezier(0, 0, 0.1, 1), box-shadow .2s cubic-bezier(0, 0, 0.1, 1);
+}
+.work-experience-image {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.work-experience-card .work-experience-image {
+  filter: blur(10px);
+  opacity: 0;
+}
+.work-experience-card:hover .work-experience-image {
+  opacity: 0.1;
+}
+.work-experience-card:hover {
+  transform: scale(1.2);
+  z-index: 100;
+}
+
+.work-experience-card:active .work-experience-description {
+  opacity: 0;
+}
+.work-experience-card:active .work-experience-image {
+	filter: blur(0);
+  opacity: 1;
+}
+
+/* .work-experience-links {
+  opacity: 0;
+  transition: opacity .33s ease-out;
+}
+
+.work-experience-card:hover .work-experience-links {
+  opacity: 1;
+} */
+
+.ant-collapse-header {
+  padding: 0 !important;
+  display: block !important;
+}
+
+.ant-collapse-content>.ant-collapse-content-box {
+  padding: 0;
+}
