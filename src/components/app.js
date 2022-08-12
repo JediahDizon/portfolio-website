@@ -20,7 +20,7 @@ export default function App() {
 					]
 				}]}
 			>
-				<Card id="cover" style={{ margin: "20px", marginBottom: 0, maxHeight: "600px" }}>
+				<Card id="cover" style={{ margin: "20px", marginBottom: 0, maxHeight: "600px", height: "50vh" }}>
 					{/* Carousel (?) */}
 					<Image
 						src="https://media.discordapp.net/attachments/940588069617283122/981114633450557440/B2CD0984-2000-42B3-990F-348A872F5482.jpeg?width=584&height=876"
@@ -33,10 +33,10 @@ export default function App() {
 							<Typography.Title level={5} style={{ color: "white" }}>JediahJosuah@gmail.com</Typography.Title>
 						</Typography.Title>
 						<Typography.Paragraph style={{ color: "white" }}>
-							Software Developer who mainly focus on Javascript front-end frameworks and libraries such as {getSkill("ReactJS")} & {getSkill("Angular")} whilst being capable at full-stack development with {getSkill("NodeJS")} & {getSkill("SQL")}/{getSkill("NoSQL")} databases.
+							Software Developer who mainly focus on Javascript front-end frameworks and libraries such as {getSkill("ReactJS")} and {getSkill("Angular")} while being capable at full-stack development with {getSkill("NodeJS")} and {getSkill("SQL")}/{getSkill("NoSQL")} databases.
 						</Typography.Paragraph>
 
-						<Space wrap>
+						<Space wrap style={{ marginBottom: "10px" }}>
 							<Button style={{ color: "white", backgroundColor: "rgba(255, 255, 255, 0.33)" }} onClick={() => window.open("https://github.com/JediahDizon", "_blank", "noopener,noreferrer")}>Github</Button>
 							<Button style={{ color: "white", backgroundColor: "rgba(255, 255, 255, 0.33)" }} onClick={() => window.open("https://www.linkedin.com/in/jediahdizon/", "_blank", "noopener,noreferrer")}>LinkedIn</Button>
 						</Space>
@@ -136,8 +136,8 @@ function renderWork() {
 						<Typography.Title level={3}>Resource Energy Solutions <small style={{ opacity: 0.3 }}>2017 – 2020</small></Typography.Title>,
 						<Typography.Paragraph>
 							Developed an offline-capable desktop application made with {getSkill("ReactJS")} with Ant Design UI library, as well as {getSkill("DexieJS")} for saving data to local browser. Used the {getSkill("Electron")} library to install and run the application.<br /><br />
-							Developed an {getSkill("Android")} & {getSkill("iOS")} app using {getSkill("React Native")}. Made overhauling architectural design to the old codebase which includes utilization of {getSkill("Realm DB")} local database for offline capability<br /><br />
-							Made new backend API endpoints via {getSkill("ASP.NET")} and {getSkill("C#")} for the mobile app to interface with TORC.<br /><br />
+							Developed an {getSkill("Android")} and {getSkill("iOS")} app using {getSkill("React Native")}. Made overhauling architectural design to the old codebase which includes utilization of {getSkill("Realm DB")} local database for offline capability<br /><br />
+							Made backend API endpoints via {getSkill("ASP.NET")} and {getSkill("C#")} for the mobile app to interface with TORC platform.<br /><br />
 							Made a {getSkill("NodeJS")} and {getSkill("ReactJS")} application combined with {getSkill("GraphQL")} and {getSkill("Sequelize")} library to retrieve data from a {getSkill("MySQL")} database that showcases statistics involving the support team’s job performance.<br /><br />
 							Set up weekly meetings with a team overseas to track job performance for a collaborative work. Team uses {getSkill("Jira")}, {getSkill("Confluence")}, and {getSkill("BitBucket")} for management.<br /><br />
 						</Typography.Paragraph>,
@@ -159,7 +159,7 @@ function renderCodeAdventure() {
 			<Typography.Title level={3}>
 				Code Adventure <small style={{ opacity: 0.3 }}>Personal Projects</small>
 			</Typography.Title>
-			<Typography.Paragraph>Applications I have worked on to expand my knowledge in software development.</Typography.Paragraph>
+			<Typography.Paragraph>Applications I have worked on to expand my knowledge in software development. Code review is available upon request.</Typography.Paragraph>
 
 			<Space wrap size="large">
 				{
@@ -176,8 +176,8 @@ function renderCodeAdventure() {
 						Pikachure,
 						{
 							"Website": "https://pikachure.com/",
-							"Frontend": "https://github.com/JediahDizon/portfolio-website",
-							"Backend": "https://github.com/JediahDizon/pikature-web"
+							// "Frontend": "https://github.com/JediahDizon/portfolio-website",
+							// "Backend": "https://github.com/JediahDizon/pikature-web"
 						}
 					)
 				}
@@ -195,8 +195,8 @@ function renderCodeAdventure() {
 						JobZ,
 						{
 							"Website": "https://jobzapp.ca/",
-							"Frontend": "https://github.com/JediahDizon/JobZ-web",
-							"Backend": "https://github.com/JediahDizon/JobZ-server",
+							// "Frontend": "https://github.com/JediahDizon/JobZ-web",
+							// "Backend": "https://github.com/JediahDizon/JobZ-server",
 							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android",
 							"iOS (Under Maintenance)": ""
 						}
@@ -220,7 +220,7 @@ function renderEducation() {
 					renderExperience(
 						<Typography.Title level={3}>SAIT Polytechnic <small style={{ opacity: 0.3 }}>2 Years</small></Typography.Title>,
 						<Typography.Paragraph>
-							Took a 2-year diploma program that helps prepare full-stack developers prepare for the workforce. <br /><br />
+							2-year diploma course focused on software development.<br /><br />
 							Subjects include {getSkill("SocketIO")} programming, web development ({getSkill("HTML")}, {getSkill("CSS")}, {getSkill("Javascript")}, {getSkill("PHP")}), {getSkill("Java")} programming ({getSkill("JSP")}, {getSkill("JSTL")}), and team management (Requirements documentation, Team collaboration). <br /><br />
 							Graduated with 3.72 GPA.<br /><br />
 						</Typography.Paragraph>,
