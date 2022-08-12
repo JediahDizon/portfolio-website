@@ -6,6 +6,8 @@ import SupportDashboard from "./support-dashboard.png";
 import Pikachure from "./pikachure-screenshot.png";
 import RES from "./res.png";
 import JobZ from "./jobz.png";
+import SAIT from "./sait-polytechnic.png";
+import Udemy from "./udemy.png";
 
 export {
 	Gigadat,
@@ -15,5 +17,7 @@ export {
 	SupportDashboard,
 	Pikachure,
 	RES,
-	JobZ
+	JobZ,
+	SAIT,
+	Udemy
 };
