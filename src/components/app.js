@@ -35,6 +35,11 @@ export default function App() {
 						<Typography.Paragraph style={{ color: "white" }}>
 							Software Developer who mainly focus on Javascript front-end frameworks and libraries such as {getSkill("ReactJS")} & {getSkill("Angular")} whilst being capable at full-stack development with {getSkill("NodeJS")} & {getSkill("SQL")}/{getSkill("NoSQL")} databases.
 						</Typography.Paragraph>
+
+						<Space wrap>
+							<Button style={{ color: "white", backgroundColor: "rgba(255, 255, 255, 0.33)" }} onClick={() => window.open("https://github.com/JediahDizon", "_blank", "noopener,noreferrer")}>Github</Button>
+							<Button style={{ color: "white", backgroundColor: "rgba(255, 255, 255, 0.33)" }} onClick={() => window.open("https://www.linkedin.com/in/jediahdizon/", "_blank", "noopener,noreferrer")}>LinkedIn</Button>
+						</Space>
 					</div>
 				</Card>
 			</Plx>
@@ -298,7 +303,7 @@ function renderAbout() {
 			</Typography.Title>
 			<Typography.Paragraph>Want to know more about me? Email me for an interview! I would love to talk about how I can add value to your company.</Typography.Paragraph>
 
-			<Space wrap className="work-experience-links">
+			<Space wrap>
 				<Button type="primary" style={{ color: "white" }} onClick={() => window.open("https://github.com/JediahDizon", "_blank", "noopener,noreferrer")}>Github</Button>
 				<Button type="primary" style={{ color: "white" }} onClick={() => window.open("https://www.linkedin.com/in/jediahdizon/", "_blank", "noopener,noreferrer")}>LinkedIn</Button>
 			</Space>
