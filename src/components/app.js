@@ -194,11 +194,12 @@ function renderCodeAdventure() {
 						</Typography.Paragraph>,
 						JobZ,
 						{
-							"Website": "https://jobzapp.ca/",
+							// "Website": "https://jobzapp.ca/",
 							// "Frontend": "https://github.com/JediahDizon/JobZ-web",
 							// "Backend": "https://github.com/JediahDizon/JobZ-server",
-							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android",
-							"iOS (Under Maintenance)": ""
+							"Website (Under Maintenance)": "",
+							"iOS (Under Maintenance)": "",
+							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android"
 						}
 					)
 				}

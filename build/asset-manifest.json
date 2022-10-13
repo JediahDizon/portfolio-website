@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.6245f50a.css",
-    "main.js": "/portfolio-website/static/js/main.00f43b0f.js",
-    "static/media/jobz.png": "/portfolio-website/static/media/jobz.cd6ba94befbb03fba9ba.png",
-    "static/media/pikachure-screenshot.png": "/portfolio-website/static/media/pikachure-screenshot.fc5598fd7deba18467e4.png",
+    "main.js": "/portfolio-website/static/js/main.6c4a5e26.js",
+    "static/media/pikachure-screenshot.png": "/portfolio-website/static/media/pikachure-screenshot.8ecf5ed327fca4af3bee.png",
+    "static/media/jobz.png": "/portfolio-website/static/media/jobz.978ac152e6ae4ad3120b.png",
     "static/media/support-dashboard.png": "/portfolio-website/static/media/support-dashboard.e3c6efb2ab64f3120de2.png",
     "static/media/wellman-offline.jpeg": "/portfolio-website/static/media/wellman-offline.6db0ff1312f2c9737681.jpeg",
-    "static/media/sait-polytechnic.png": "/portfolio-website/static/media/sait-polytechnic.100d65cbe493cfbcdda4.png",
-    "static/media/gigadat.png": "/portfolio-website/static/media/gigadat.c52d074876ef7de3a490.png",
+    "static/media/gigadat.png": "/portfolio-website/static/media/gigadat.0b6b89e450d6729cafd8.png",
     "static/media/fieldflex.jpeg": "/portfolio-website/static/media/fieldflex.e8295099da510ce62804.jpeg",
     "static/media/torc-mobile.jpeg": "/portfolio-website/static/media/torc-mobile.11a9a191ff8b56dd455c.jpeg",
-    "static/media/udemy.png": "/portfolio-website/static/media/udemy.bd0e7b79bde40324df75.png",
+    "static/media/sait-polytechnic.png": "/portfolio-website/static/media/sait-polytechnic.a490f0df21197b26c222.png",
+    "static/media/udemy.png": "/portfolio-website/static/media/udemy.4ab259b2ded6b7937572.png",
+    "static/media/res.png": "/portfolio-website/static/media/res.b1ba47d0343a52de382f.png",
     "index.html": "/portfolio-website/index.html",
     "main.6245f50a.css.map": "/portfolio-website/static/css/main.6245f50a.css.map",
-    "main.00f43b0f.js.map": "/portfolio-website/static/js/main.00f43b0f.js.map"
+    "main.6c4a5e26.js.map": "/portfolio-website/static/js/main.6c4a5e26.js.map"
   },
   "entrypoints": [
     "static/css/main.6245f50a.css",
-    "static/js/main.00f43b0f.js"
+    "static/js/main.6c4a5e26.js"
   ]
 }
