@@ -176,8 +176,8 @@ function renderCodeAdventure() {
 						Pikachure,
 						{
 							"Website": "https://pikachure.com/",
-							// "Frontend": "https://github.com/JediahDizon/portfolio-website",
-							// "Backend": "https://github.com/JediahDizon/pikature-web"
+							"Frontend": "https://github.com/JediahDizon/pikachure-web-opensource",
+							"Backend": "https://github.com/JediahDizon/pikachure-server-opensource"
 						}
 					)
 				}
@@ -194,12 +194,11 @@ function renderCodeAdventure() {
 						</Typography.Paragraph>,
 						JobZ,
 						{
-							// "Website": "https://jobzapp.ca/",
+							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android",
+							"Website (Under Maintenance)": "", // "https://jobzapp.ca/",
+							"iOS (Under Maintenance)": ""
 							// "Frontend": "https://github.com/JediahDizon/JobZ-web",
 							// "Backend": "https://github.com/JediahDizon/JobZ-server",
-							"Website (Under Maintenance)": "",
-							"iOS (Under Maintenance)": "",
-							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android"
 						}
 					)
 				}
