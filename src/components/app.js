@@ -176,8 +176,8 @@ function renderCodeAdventure() {
 						Pikachure,
 						{
 							"Website": "https://pikachure.com/",
-							// "Frontend": "https://github.com/JediahDizon/portfolio-website",
-							// "Backend": "https://github.com/JediahDizon/pikature-web"
+							"Frontend": "https://github.com/JediahDizon/pikachure-web-opensource",
+							"Backend": "https://github.com/JediahDizon/pikachure-server-opensource"
 						}
 					)
 				}
@@ -194,7 +194,7 @@ function renderCodeAdventure() {
 						</Typography.Paragraph>,
 						JobZ,
 						{
-							"Website": "https://jobzapp.ca/",
+							"Website (Under Maintenance)": "", // "https://jobzapp.ca/",
 							// "Frontend": "https://github.com/JediahDizon/JobZ-web",
 							// "Backend": "https://github.com/JediahDizon/JobZ-server",
 							"Android": "https://play.google.com/store/apps/details?id=com.jobz.android",
